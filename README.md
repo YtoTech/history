@@ -36,6 +36,7 @@ You can find the library on `window.History`.
 `history` provides 3 different methods for creating a `history` object, depending on your environment.
 
 - `createBrowserHistory` is for use in modern web browsers that support the [HTML5 history API](http://diveintohtml5.info/history.html) (see [cross-browser compatibility](http://caniuse.com/#feat=history))
+- `createSearchHistory` is the same as `createBrowserHistory`, except that it stores pathname in a search parameter
 - `createMemoryHistory` is used as a reference implementation and may also be used in non-DOM environments, like [React Native](https://facebook.github.io/react-native/) or tests
 - `createHashHistory` is for use in legacy web browsers
 
